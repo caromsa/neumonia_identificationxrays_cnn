@@ -35,8 +35,28 @@ Luego, la salida de la última capa de maxpooling se aplana (flatten) para poder
 
 La capa final de la CNN es una capa de salida con una sola neurona y utiliza la función de activación sigmoidal. Esta neurona representa la probabilidad de que la imagen pertenezca a la clase "PNEUMONIA" en comparación con la clase "NORMAL".
 
+**RESULTADOS**
+
+Prueba del modelo:
+Test accuracy:  0.7387820482254028 (74%)
+
+Precisión del modelo:
+Accuracy: 0.6201923076923077 (62%)
+
+Métricas:
+precision    recall  f1-score   support
+
+      Normal       0.48      0.16      0.24       234
+   Pnuemonia       0.64      0.90      0.75       390
+
+    accuracy                           0.62       624
+   macro avg       0.56      0.53      0.49       624
+weighted avg       0.58      0.62      0.56       624
 
 
+**CONCLUSIÓN**
+
+La exactitud de precisión del modelo es un poco bajo, aunque los datos son difíciles de interpretar debido a sus características ya que resulta un desafío en definir con exactitud la opacidad que produce la colonia de bacterias al revelar la radiografía, se intentará ajustar los parámetros y características de las imágenes para obtener una mejor precisión.
 
 
 
