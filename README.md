@@ -44,6 +44,7 @@ Precisión del modelo:
 Accuracy: 0.6201923076923077 (62%)
 
 Métricas:
+
 precision    recall  f1-score   support
 
       Normal       0.48      0.16      0.24       234
